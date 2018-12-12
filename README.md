@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  ## Install firebase into current project
 `npm install firebase @angular/fire --save `
 ## Login to firebase, copy this code segment into: 
-`src/environments/environment.prod.ts` and `src/environments/environment.ts`. The segement shoul look like this:
+`src/environments/environment.prod.ts` and `src/environments/environment.ts`. The segement should look like this:
 <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/deploy/Images/3.png">
 ## Initialize firebase
 `firebase init`
