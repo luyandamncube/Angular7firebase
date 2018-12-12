@@ -2,26 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
-## Development server
+## Install firebase
+`npm install -g firebase-tools` 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Login to firebase account
+`firebase login` 
+ 
+ ## Install firebase into current project
+`npm install firebase @angular/fire --save `
+## Login to firebase, copy this code segment into: 
+`src/environments/environment.prod.ts` and `src/environments/environment.ts`. The segement shoul look like this:
+<img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/deploy/Images/3.png">
+## Initialize firebase
+`firebase init`
+    
+## Compile and minify code into a single package (./dist)
+`ng build --prod`
 
-## Code scaffolding
+## Deploy application
+`firebase deploy`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## If any changes are made...
+`firebase login; firebase init; ng build --prod; firebase deploy`
