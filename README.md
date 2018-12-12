@@ -14,8 +14,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Login to firebase, copy this code segment:
 <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/deploy/Images/16.png">
 
-## Navigate into these folders: 
-`src/environments/environment.prod.ts` and `src/environments/environment.ts`. The segement should look like this:
+## Adjust the files `src/environments/environment.prod.ts` and `src/environments/environment.ts`: 
+The segement should look like this:
 <img src="https://csharpcorner-mindcrackerinc.netdna-ssl.com/article/deploy/Images/3.png">
 
 ## Initialize firebase
